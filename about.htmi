@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国営ひたち海浜公園 - 見頃とアクセス</title>
+    <!-- index.htmlと同じCSSファイルを読み込みます -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ヘッダー部分 -->
+    <header>
+        <div class="header-container">
+            <h1>見頃・アクセスガイド</h1>
+            <p>国営ひたち海浜公園へ行く前にチェック！</p>
+        </div>
+    </header>
+    <main>
+        
+        <!-- 見頃の時期情報 -->
+        <section class="info-section">
+            <h2>おすすめの時期・見頃</h2>
+            <ul class="schedule-list">
+                <li><strong>春（ネモフィラ）：</strong> 4月中旬 ～ 5月上旬</li>
+                <li><strong>夏（緑コキア）：</strong> 7月中旬 ～ 9月中旬</li>
+                <li><strong>秋（赤コキア）：</strong> 10月上旬 ～ 10月中旬</li>
+            </ul>
+            <!-- 【条件クリア：2つ目の画像】 -->
+            <!-- 好きな写真に変えられます -->
+            <img src="https://picsum.photos" alt="ひたち海浜公園のコキア" class="featured-img">
+        </section>
+
+<!-- アクセス情報 -->
+        <section class="info-section">
+            <h2>アクセス方法</h2>
+            <div class="access-box">
+                <h3>🚌 電車・バスでお越しの方</h3>
+                <p>JR常磐線「勝田駅」東口の2番乗り場から、路線バスで「海浜公園西口」または「海浜公園南口」下車（約15分）。</p>
+                
+                <h3>🚗 お車でお越しの方</h3>
+                <p>常陸那珂有料道路「ひたち海浜公園IC」を出てすぐ。</p>
+            </div>
+        </section>
+<section class="navigation-section">
+            <!-- 【条件クリア：HTMLファイルをリンクさせること】 -->
+            <a href="index.html" class="back-btn">ホームに戻る</a>
+        </section>
+
+    </main>
+
+    <!-- フッター部分 -->
+    <footer>
+        <p>&copy; 2026 茨城観光紹介プロジェクト</p>
+    </footer>
+
+</body>
+</html>
